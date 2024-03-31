@@ -63,9 +63,3 @@ switch:
   - platform: gpio
     pin: GPIO4
     name: "Flash"
-
-binary_sensor:
-  - platform: gpio
-    pin: GPIO2
-    name: "PIR Sensor"
-    device_class: motion
