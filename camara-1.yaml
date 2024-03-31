@@ -12,20 +12,20 @@ logger:
 
 # Enable Home Assistant API
 api:
-  encryption:
-    key: "IjDkvthhkDnqJhLpi5l2gyRk16qci9K22c2/wBQzoC4="
+#  encryption:
+#    key: "IjDkvthhkDnqJhLpi5l2gyRk16qci9K22c2/wBQzoC4="
 
 ota:
-  password: "ab6d1d8e9857bc056232bb54a01ffddc"
+#  password: "ab6d1d8e9857bc056232bb54a01ffddc"
 
 wifi:
-  ssid: !secret wifi_ssid
-  password: !secret wifi_password
+#  ssid: !secret wifi_ssid
+#  password: !secret wifi_password
 
   # Enable fallback hotspot (captive portal) in case wifi connection fails
   ap:
-    ssid: "Camara-1 Fallback Hotspot"
-    password: "Dpmf0cFSHCNT"
+  #  ssid: "Camara-1 Fallback Hotspot"
+  #  password: "Dpmf0cFSHCNT"
 
 captive_portal:
 
